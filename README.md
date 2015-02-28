@@ -6,7 +6,7 @@
 如果你对面向对象不是很了解，那么在开始之前先学习一下[面向对象的六大原则](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis/oop-principles/oop-principles.md)是非常有必要的。   
     
 
-Android平台的开源库请参考Trinea的[android-open-project](https://github.com/Trinea/android-open-project),一些知名开源库的分析请参考Trinea的[android-open-project-analysis](https://github.com/android-cn/android-open-project-analysis)。      
+Android平台的知名开源库请参考Trinea的[android-open-project](https://github.com/Trinea/android-open-project),一些知名开源库的分析请参考Trinea的[android-open-project-analysis](https://github.com/android-cn/android-open-project-analysis)。      
    
  
 **<font color="red">QQ交流群: 413864859,希望大家踊跃参与进来。</font>**
@@ -43,12 +43,13 @@ Android平台的开源库请参考Trinea的[android-open-project](https://github
 **<font color="red">注意，在开发过程中不要修改不属于自己的文件，避免在协作时产生冲突。</font>**
 
 ## 任务表
-### 一期任务 ( 截止时间 2015.4.5 )
+### 一期任务 ( 截止时间 2015.4.10 )
 | 原开源库名称    | 简版开源库名称  |     作者       |    分类   | 预计完成时间 |     进行状态   |
 | ------------- | ------------- |:-------------:| ------------- | ------------- | ------------- |
-|    [Volley](https://github.com/mcxiaoke/android-volley)    | [SimpleNet](https://github.com/bboyfeiyu/simple_net_framework)      | [Mr.Simple](https://github.com/bboyfeiyu) |   网络请求 |   2015.3.5 |  未完成  |
-|    [ImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader) | [SimpleImageLoader](https://github.com/bboyfeiyu/simple_imageloader) | [Mr.Simple](https://github.com/bboyfeiyu) |   图片加载 |   2015.3.15 |  未完成  |
-|    [AndroidEventBus](https://github.com/bboyfeiyu/AndroidEventBus) | [AndroidEventBus](https://github.com/bboyfeiyu/AndroidEventBus) | [Mr.Simple](https://github.com/bboyfeiyu) |   		其他 |   2015.3.25 |  未完成  |
+|    [Volley](https://github.com/mcxiaoke/android-volley)    | [SimpleNet](https://github.com/bboyfeiyu/simple_net_framework)      | [Mr.Simple](https://github.com/bboyfeiyu) |   网络请求 |   2015.3.5 |  文档未完成  |
+|    [ImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader) | [SimpleImageLoader](https://github.com/bboyfeiyu/simple_imageloader) | [Mr.Simple](https://github.com/bboyfeiyu) |   图片加载 |   2015.3.15 |  代码完成  |
+|    [AndroidEventBus](https://github.com/bboyfeiyu/AndroidEventBus) | [AndroidEventBus](https://github.com/bboyfeiyu/AndroidEventBus) | [Mr.Simple](https://github.com/bboyfeiyu) |   		其他 |   2015.3.25 |  代码完成  |
+|    [okhttp](https://github.com/square/okhttp) | 这里填写简版库的链接 | [CodeLife](https://github.com/xiaojianchen) | 网络请求 |   2015.4.10 | |  
 
 
 
