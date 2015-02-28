@@ -35,15 +35,13 @@
 **<font color="red">注意，在开发过程中不要修改不属于自己的文件，避免在协作时产生冲突。</font>**
 
 ## 任务表
-| 开源框架名称        | 作者           |      预计完成时间    |
-| ------------- |:-------------:| ------------- |
-|    Volley    |  [bboyfeiyu](https://github.com/bboyfeiyu) |   2015.3.5 |    
+| 原开源库名称    | 简版开源库名称  |     作者       |    预计完成时间 |     进行状态   |
+| ------------- | ------------- |:-------------:| ------------- | ------------- |
+|    Volley    | SimpleNet      | [bboyfeiyu](https://github.com/bboyfeiyu) |   2015.3.5 |  未完成  |
+|    ImageLoader | SimpleImageLoader | [bboyfeiyu](https://github.com/bboyfeiyu) |   2015.3.15 |  未完成  |
+|    AndroidEventBus | AndroidEventBus | [bboyfeiyu](https://github.com/bboyfeiyu) |   2015.3.25 |  未完成  |
+|    ButterKnife | InjectDagger | [bboyfeiyu](https://github.com/bboyfeiyu) |   2015.4.2 |  未完成  |
 
-
-## 已完成框架列表
-| 开源框架        | 文件夹           |   完成时间    |
-| ------------- |:-------------:| ------------- |
-|        |   |   |
 
 
 
