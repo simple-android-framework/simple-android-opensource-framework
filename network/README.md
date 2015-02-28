@@ -1,7 +1,7 @@
 # 任务表
-|   简版框架名称  |     作者       |   预计完成时间  |
+|   简版框架     |     作者       |   预计完成时间  |
 | ------------- |:-------------:| ------------- |
-|    [okhttp](https://github.com/square/okhttp) |  [CodeLife](https://github.com/xiaojianchen) |   4.10 |    
+|    框架所在目录 |  [CodeLife](https://github.com/xiaojianchen) |   2015.4.10 |    
 
 
 
