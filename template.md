@@ -1,11 +1,11 @@
-Android设计模式源码解析之${模式名} 
+${简版开源库} 的设计与实现 
 ====================================
-> 本文为 [Android 设计模式源码解析](https://github.com/simple-android-framework/android_design_patterns_analysis) 中 ${模式名} 分析  
-> Android系统版本： ${系统版本号，例如 4.2.1}         
-> 分析者：[${分析者}](${分析者 Github 地址})，分析状态：未完成，校对者：[Mr.Simple](https://github.com/bboyfeiyu)，校对状态：未开始   
+> 本文为 [Android著名开源库的简版实现](https://github.com/simple-android-framework-exchange/simple-android-opensource-framework) 中的 ${简版开源库} 的设计与实现  
+> 原始开源库： [${原始开源库名称}](链接)       
+> 作者：[作者用户名](作者github链接)，开发状态：完成/未完成，校对者：[等待管理员填写]()，校对状态：未开始    
 
 
-建议大家看下 [Volley](../volley/README.md)、[UIL](../universal-image-loader/README.md)、[Dagger](../dagger/README.md)、[Event Bus](../event-bus/README.md) 的分析，了解分析该到什么程度，以及类似流程图和总体设计该怎么做。  
+建议大家看下 [SimpleNet](network/SimpleNet/README.md)，了解应该写到什么程度，以及类似流程图和总体设计该怎么做。当然，如果你只想写README.md一篇介绍，那么该文档中必须包含详细的设计与源码实现介绍，阐述其核心原理。如果你的README.md只是一篇介绍性文档，那么后续必须增加其他阐述核心原理的其他文档。         
 
 `复制一份到自己的项目文件夹下，然后根据自己项目替换掉 ${} 内容，删掉本行及上面两行。`  
 

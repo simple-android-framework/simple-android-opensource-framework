@@ -1,12 +1,13 @@
 # Android著名开源库的简版实现
 
 ## 简述
-该项目通过分析并实现Android平台知名开源框架的简单版本来提升自我，并达到深入理解各大开源库的核心原理的目的。稳定、强大的开源库一般都较为复杂，比如Universal-ImageLoader，因此简版开源库不需要完全按照原版来实现，只需要把核心架构、原理实现，并且做到可运用到实际项目中即可。在实现开源库简版的同时，作者需要写一系列文章来剖析它的实现原理以及为什么要这么设计，在提升自我的同时将框架的设计与实现、领悟分享给他人，希望大家在提升自我的同时对行业做出一些贡献。       
+该项目通过分析并实现Android平台知名开源框架的简单版本来提升自我，并达到深入理解各大开源库的核心原理的目的。稳定、强大的开源库一般都较为复杂，比如Universal-ImageLoader，因此简版开源库不需要完全按照原版来实现，只需要把核心架构、原理实现，并且做到可运用到实际项目中即可。在实现开源库简版的同时，作者需要写一系列文章来剖析它的实现原理以及为什么要这么设计，在提升自我的同时将框架的设计与实现、领悟分享给他人，希望大家在提升自我的同时对行业做出一些贡献。         
 
-如果你对面向对象不是很了解，那么在开始之前先学习一下[面向对象的六大原则](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis/oop-principles/oop-principles.md)是非常有必要的。   
-    
+Android平台有很多优秀的开源库，如果你对这些还不是很了解，可以参考Trinea的[android-open-project](https://github.com/Trinea/android-open-project)列举的知名开源库。对一些知名开源库的分析请参考Trinea的[android-open-project-analysis](https://github.com/android-cn/android-open-project-analysis)。      
 
-Android平台的知名开源库请参考Trinea的[android-open-project](https://github.com/Trinea/android-open-project),一些知名开源库的分析请参考Trinea的[android-open-project-analysis](https://github.com/android-cn/android-open-project-analysis)。      
+我想在你了解了一些开源库，并且学习了Trinea的对开源库分析的文章之后对于开源库的核心技术就有了一定的了解。此时你可以利用这些基础来重复造这些轮子，这些轮子不必很完善、稳定，只需要展示它的核心原理、设计，并且可用即可。这样从实战中学习这些开源库，不仅能够提升技术，也能够学习这些开源库的优秀设计。
+
+如果你对面向对象不是很了解，那么在开始之前先学习一下[面向对象的六大原则](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis/oop-principles/oop-principles.md)是非常有必要的。       
    
  
 **<font color="red">QQ交流群: 413864859,希望大家踊跃参与进来。</font>**
