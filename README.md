@@ -44,7 +44,7 @@ Android平台有很多优秀的开源库，如果你对这些还不是很了解�
 **<font color="red">注意，在开发过程中不要修改不属于自己的文件，避免在协作时产生冲突。</font>**
 
 ## 任务表
-### 一期任务 ( 截止时间 2015.4.10 )
+### 一期任务 
 | 原开源库名称    | 简版开源库名称  |     作者       |    分类   | 预计完成时间 |     进行状态   |
 | ------------- | ------------- |:-------------:| ------------- | ------------- | ------------- |
 |    [Volley](https://github.com/mcxiaoke/android-volley)    | [SimpleNet](https://github.com/bboyfeiyu/simple_net_framework)      | [Mr.Simple](https://github.com/bboyfeiyu) |   网络请求 |   2015.3.5 |  文档未完成  |
