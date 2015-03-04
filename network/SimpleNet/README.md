@@ -60,5 +60,5 @@ SimpleNet，Request是一个抽象的泛型类，泛型类型就是返回的Resp
 
 ##5. 杂谈
 该项目模仿Volley简单实现了一个网络请求框架，该库没有经过严格的测试，适合用于学习，不建议运用到项目中。当然你要是觉得没有什么问题，也可以在你的项目中使用。       
-本篇文章，我们对SimpleNet做了一个简介，在后续的文章中我们再进行详细介绍，敬请期待。[SimpleNetd的Request、Response类与请求队列]()、[SimleNet的Http请求分发与执行]()、[SimpleNet的请求配置与Response缓存]()。
+本篇文章，我们对SimpleNet做了一个简介，在后续的文章中我们再进行详细介绍，敬请期待。[SimpleNet的Request、Response类与请求队列](SimpleNet_Detail_1.md)、[SimleNet的Http请求分发与执行](SimpleNet_Detail_2.md)、[SimpleNet的请求配置与Response缓存](SimpleNet_Detail_3.md)。
 
