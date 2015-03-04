@@ -1,48 +1,58 @@
-SimpleNet的设计与实现
-====================================
-> 本文为 [Android著名开源库的简版实现](https://github.com/simple-android-framework-exchange/simple-android-opensource-framework) 中的SimpleNet的设计与实现  
-> 原始开源库： [Volley](https://github.com/mcxiaoke/android-volley)       
-> 作者：[Mr.Simple](https://github.com/bboyfeiyu)，开发状态：代码已完成，校对者：[Mr.Simple](https://github.com/bboyfeiyu)，校对状态：未开始   
+<img src="http://avatar.csdn.net/blogpic/20150115161936875.jpg">      
+# SimpleNet网络框架
+  SimpleNet是一个简单的Android网络框架，该框架的结构类似Volley，该框架是为了让不太熟悉框架开发或者说不太了解Android网络编程的同学学习使用。它没有经过测试，因此不太建议运用在您的项目中。当然，如果你觉得没有什么问题的话也可以直接使用在你的项目中。该框架可以以并发的形式执行网络请求，并且将结果投递给UI线程。更多介绍请参考<a href="http://blog.csdn.net/column/details/simple-net.html" target="_blank">教你写Android网络框架</a>
+
+  
+## 使用示例
+```java   
+
+    // 1、构建请求队列
+    RequestQueue queue = SimpleNet.newRequestQueue();  
+  
+	// 2、创建请求
+    MultipartRequest multipartRequest = new MultipartRequest("你的url", new 	RequestListener<String>() {
+                    @Override
+                    public void onComplete(int stCode, String response, String errMsg) {
+                        // 该方法执行在UI线程
+                    }
+                }); 
+  
+	// 3、添加各种参数
+	// 添加header  
+	multipartRequest.addHeader("header-name", "value");  
+	  
+	// 通过MultipartEntity来设置参数  
+	MultipartEntity multi = multipartRequest.getMultiPartEntity();  
+	// 文本参数  
+	multi.addStringPart("location", "模拟的地理位置");  
+	multi.addStringPart("type", "0");  
+  
+	Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.thumb);  
+	// 直接从上传Bitmap  
+	multi.addBinaryPart("images", bitmapToBytes(bitmap));  
+	// 上传文件  
+	multi.addFilePart("imgfile", new File("storage/emulated/0/test.jpg"));  
 
 
-## 1. 功能介绍  
-功能介绍，包括功能或优点等  
+	// 4、将请求添加到队列中  
+	queue.addRequest(multipartRequest); 
+	
+	
+	// 返回JSONObject的请求
+	//        JsonRequest jsonRequest  = new JsonRequest(HttpMethod.GET, "服务器地址", new RequestListener<JSONObject>() {
+	//
+	//            @Override
+	//            public void onComplete(int stCode, JSONObject response, String errMsg) {
+	//                
+	//            }
+	//            
+	//        }) ;
+	 
+```        
 
+ 最后，记得在Activity销毁时关闭消息队列。    
  
-## 2. 总体设计
-整个库分为哪些模块及模块之间的调用关系。  
-- 如大多数图片缓存会分为 Loader 和 Processer 等模块。  
-- 可使用 [Google Drawing](https://docs.google.com/drawings)、[Visio](http://products.office.com/en-us/visio/flowchart-software)、[StarUML](http://staruml.io/) 等工具完成，其他工具推荐？？  
-- 非所有项目必须，不需要的请先在群里反馈。  
- 
-
-## 3. 流程图
-主要功能流程图  
-
-- 如 Retrofit、Volley 的请求处理流程，Android-Universal-Image-Loader 的图片处理流程图  
-- 可使用 [Google Drawing](https://docs.google.com/drawings)、[Visio](http://products.office.com/en-us/visio/flowchart-software)、[StarUML](http://staruml.io/) 等工具完成，其他工具推荐？？  
-- 非所有项目必须，不需要的请先在群里反馈  
-
-
-
-
-## 4. 详细设计
-### 4.1 核心类详细介绍
-
-类及其主要函数功能介绍、核心功能流程图，流程图可使用 [Google Drawing](https://docs.google.com/drawings)、[Visio](http://products.office.com/en-us/visio/flowchart-software)、[StarUML](http://staruml.io/)。  
-
-
-### 4.2 类关系图
-类关系图，类的继承、组合关系图，可是用 [StarUML](http://staruml.io/) 工具。  
-
-
- 
-
-##5. 杂谈
-该项目存在的问题、可优化点及类似功能项目对比等，非所有项目必须。  
-
-
-
-
-`写完相关内容之后到开发群告知管理员，管理员安排相关人员进行审核，审核通过之后即可。`  
+```java
+queue.stop();
+```            
 
