@@ -53,7 +53,7 @@ Android平台有很多优秀的开源库，如果你对这些还不是很了解�
 |    [ImageLoader](https://github.com/nostra13/Android-Universal-Image-Loader) | [SimpleImageLoader](https://github.com/bboyfeiyu/simple_imageloader) | [Mr.Simple](https://github.com/bboyfeiyu) |   图片加载 |   2015.3.15 |  代码完成  |
 |    [AndroidEventBus](https://github.com/bboyfeiyu/AndroidEventBus) | [AndroidEventBus](https://github.com/bboyfeiyu/AndroidEventBus) | [Mr.Simple](https://github.com/bboyfeiyu) |   		其他 |   2015.3.25 |  代码完成  |
 |    [okhttp](https://github.com/square/okhttp) | 这里填写简版库的链接 | [CodeLife](https://github.com/xiaojianchen) | 网络请求 |   2015.4.10 | |  
-
+|    [Retrofit](https://github.com/square/retrofit) | [SimpleRetrofit]() | [tiny-times](https://github.com/tiny-times) | 网络请求 |   2015.4.10 | |  
 
 
 
