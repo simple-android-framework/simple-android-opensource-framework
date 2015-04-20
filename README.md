@@ -7,7 +7,7 @@ Android平台有很多优秀的开源库，如果你对这些还不是很了解�
 
 我想在你了解了一些开源库，并且学习了Trinea的对开源库分析的文章之后对于开源库的核心技术就有了一定的了解。此时你可以利用这些基础来重复造这些轮子，这些轮子不必很完善、稳定，只需要展示它的核心原理、设计，并且可用即可。这样从实战中学习这些开源库，不仅能够提升技术，也能够学习这些开源库的优秀设计。
 
-如果你对面向对象不是很了解，那么在开始之前先学习一下[面向对象的六大原则](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis/oop-principles/oop-principles.md)是非常有必要的。       
+如果你对面向对象不是很了解，那么在开始之前先学习一下[面向对象的六大原则](https://github.com/simple-android-framework-exchange/android_design_patterns_analysis/blob/master/oop-principles/oop-principles.md)是非常有必要的。       
    
  
 **<font color="red">QQ交流群: 413864859,希望大家踊跃参与进来。</font>**
